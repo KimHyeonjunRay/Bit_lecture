@@ -1,0 +1,17 @@
+---------이 방법은 깃 main과 로컬 master 에서 각각 시작하여 로컬에서 먼저 커밋 후 리모트에 변경하는 방법
+로컬에서 커밋 후
+git remote add origin (SSH 주소)
+git remote -v (상황 확인)
+----여기까진 주소이름만 등록
+git push -u origin master
+하면 오리진이 달라서 안됨 
+git pull origin master (깃 변경상황을 로컬에 동기화)
+
+---문제 발생 -> 나중에 다시 하기로 함.
+
+
+아나콘다 파워셀 주피터노트북 실행 및 외부접속
+jupyter-notebook --no-browser --port==8080 폴더명
+jupyter-notebook --no-browser --port==8080 --ip=* 폴더명 (ip하면 외부에서도 들어갈 수 있음)
+http://121.138.83.80:8080/ (ip : port 하면 외부(다른사람)이 접속 가능. 단 토큰 알아야!)
+
