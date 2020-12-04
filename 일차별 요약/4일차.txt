@@ -1,0 +1,19 @@
+pip install jupyterlab 
+
+jupyter-lab (나머지 옵션은 동일.)
+ex) jupyter-lab --port=8080 --no-browser python_work(디렉토리)
+
+
+site-packages (이 폴더 밑에 다른 라이브러리 모듈 등 설치가 됨)
+파이썬에서는
+모듈 : 소스 하나, 소스 안의 함수일 수도, 객체일 수도. 
+패키지 : 모듈이 디렉토리로 되어 있으면 패키지. 
+import greet (전체)
+foom greet import hello3 (greet 전체 중 hello3만)
+
+튜플: 리스트와 비슷, but 수정(삽입 삭제 등등) 불가, ()로 사용
+딕셔너리: 키와 값(Valus)로 구성. {} 로 사용
+ 
+함수에 변수가 없으면 
+로컬 -> 글로벌(전역) -> 빌드영역(파이썬 다운받긴 전체..?)를 찾아서 사용. 없으면 Not found
+
