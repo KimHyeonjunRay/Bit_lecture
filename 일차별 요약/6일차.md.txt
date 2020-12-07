@@ -1,0 +1,24 @@
+주피터 노트북 브라우저 사용은 커널을 통해 파이썬을 실행하고 결과값만 받아서 보여줌.	
+그래서 커널만 여러가지 있으면 다양한 버전, 언어 등을 사용 가능.	
+
+### 커널 추가 방법.	
+1. 가상환경 하나 더 만들기 (다른 버전 등으로)	
+2. pip install ipykernel 	
+3. python -m ipykernel install --user --name py27 --display-name 'python27'	
+
+### 커널 삭제 방법	
+jupyter kernelspec uninstall py27 	
+jupyter kernelspec list  (목록 확인)	
+
+파이썬은 변수를 객체의 형태로 저장.	
+모든 객체는 아이덴티티(주소), 형 , 값을 가진다.	
+- is 연산자로 객체의 아이덴티티 비교	
+- id() 함수는 아이덴티티 정수값 제공	
+- 값 변경이 가능한 Mutable 혹은 immutable한 	
+
+class 내에서 self	
+클래스를 생성한 인스턴트 자기자신을 지칭하는 것이 self.	
+
+__##__ : 자체 내장 메소드 정의 (약어로 __를 덤더라 부름)
+
+부모 is a 아들 (상속관계)
